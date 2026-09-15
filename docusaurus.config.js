@@ -6,6 +6,7 @@ const config = {
   tagline: 'API documentation powered by Redocusaurus',
   favicon: 'img/favicon.ico',
 
+  // Set these to your actual GitHub Pages values.
   url: 'https://caseylee-tc.github.io',
   baseUrl: '/Redocusaurus/',
 
@@ -34,9 +35,6 @@ const config = {
         },
       }),
     ],
-  ],
-
-  themes: [
     [
       'redocusaurus',
       {
