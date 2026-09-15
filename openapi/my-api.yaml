@@ -1,0 +1,23 @@
+openapi: 3.0.3
+info:
+  title: My API
+  description: Replace this file with your real OpenAPI spec.
+  version: 1.0.0
+servers:
+  - url: https://api.example.com/v1
+paths:
+  /ping:
+    get:
+      summary: Health check
+      operationId: getPing
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok
